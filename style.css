@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+}
+.header{
+    width: 1920px;  
+    background-color: black;
+    color: aliceblue;
+}
+.nav{
+    width: 100%;
+    height: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 106px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.nav ul li:hover{
+    color:  #F57520;
+    transition: 2s;
+}
+.privet-pupsik_{
+    display: flex;
+    position: relative;
+}
+.header-text{
+    margin: 0px 0px 0px 200px  ;
+}
+.header-button{
+    color:white ;
+    border-radius: 20px;
+    width: 180px;
+    height: 52px;
+    background-color: #F57520;
+    margin: 40px 0px 0px 0px ;
+}
+.header-img{
+}
+.h1{
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78.72px;
+    letter-spacing: 5%;   
+}
+.section{
+    background-color: grey;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px ;
+    margin: 0 auto;
+    padding: 150px 200px 90px 100px;
+}
+.card1{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;    
+}
+.card1 img{
+    border-radius: 10px ;
+}
+.card1 h1{
+    margin: 24px 0px 50px 27px ;
+}
+.card1 p{
+    margin: 0px 0px 0px 0px 27px;
+}
+.card1:hover{
+    background-color: #F57520;
+    transition: 2s;
+}
+.adasi{
+    width: 1920px;
+    height: 636px;
+}
+.pered-posledniy{
+    width: 730px ;
+    height: 636px;
+    background-color: #F57520;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    gap: 0px;
+}
+.input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+.alohida-input{
+    border-radius: 10px;
+    padding: 10px 500px 118px 16px ;
+}
+.adasini-button{
+    width: 608px;
+    height: 52px;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    color: #F57520;
+}
+.img{
+    width: 1920px;
+    height: 500px;
+}
+.footer{
+    width: 1920px;
+    height: 370px;
+    background: #101010;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 106px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.footer ul li{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.mr{
+    width: 1px;
+    height: 1px;
+}
+.li{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+}
